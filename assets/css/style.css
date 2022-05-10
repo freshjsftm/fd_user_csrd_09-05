@@ -38,16 +38,41 @@
   object-fit: cover;
   object-position: top;
 }
+.fullname-user {
+  padding: 15px;
+}
 .format-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   text-transform: capitalize;
 }
+.btn-wrapper {
+  border-top: 1px solid;
+  border-bottom: 1px solid ;
+  border-color: rgb(232,232,232);
+  padding: 20px 0;
+  margin: 15px 0;
+}
+.btn-wrapper :first-child {
+  background-color: rgb(40,167,69);
+}
+.btn-wrapper :last-child {
+  background-color: var(--main-color);
+}
 .btn {
   max-width: 40%;
+  padding: 7px;
+  border: none;
+  border-radius: 5%;
+
+  color: white;
+}
+.card-content>p {
+  padding-bottom: 30px;
 }
 .card-footer {
+  padding: 15px;
   background-color: var(--main-color);
 }
 .social-icon {
@@ -55,7 +80,7 @@
   width: 32px;
   height: 32px;
 
-  background-size: 24px;
+  background-size: 26px;
   background-repeat: no-repeat;
   background-position: center;
 }
