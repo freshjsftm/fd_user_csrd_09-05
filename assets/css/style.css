@@ -20,7 +20,7 @@
   width: 100%;
   max-width: calc(3.5*var(--img-size));
   border: 1px solid  var(--main-color);
-  margin: 10%;
+  margin: 10px;
 
   text-align: center;
   font-family: sans-serif;
