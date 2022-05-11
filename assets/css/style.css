@@ -1,7 +1,17 @@
+:root {
+  font-size: 16px;
+}
 .cards-container {
   --main-color: #17a2b8;
+  --secondary-color: #065e5a;
 
   text-align: center;
+}
+.container-title {
+  padding: 20px;
+
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .card-wrapper {
   --img-size: 100px;
@@ -10,7 +20,7 @@
   width: 100%;
   max-width: calc(3.5*var(--img-size));
   border: 1px solid  var(--main-color);
-  margin: 10px;
+  margin: 10%;
 
   text-align: center;
   font-family: sans-serif;
@@ -40,6 +50,8 @@
 }
 .fullname-user {
   padding: 15px;
+
+  font-size: 1.2em;
 }
 .format-text {
   white-space: nowrap;
@@ -55,7 +67,7 @@
   margin: 15px 0;
 }
 .btn-wrapper :first-child {
-  background-color: rgb(40,167,69);
+  background-color: #28A745;
 }
 .btn-wrapper :last-child {
   background-color: var(--main-color);
@@ -67,6 +79,13 @@
   border-radius: 5%;
 
   color: white;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+.btn:focus,
+.social-icon:focus {
+  outline: 2px solid var(--secondary-color);
 }
 .card-content>p {
   padding-bottom: 30px;
