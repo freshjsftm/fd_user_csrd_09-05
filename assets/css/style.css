@@ -66,10 +66,10 @@
   padding: 20px 0;
   margin: 15px 0;
 }
-.btn-wrapper :first-child {
+.btn:first-child {
   background-color: #28A745;
 }
-.btn-wrapper :last-child {
+.btn:last-child {
   background-color: var(--main-color);
 }
 .btn {
